@@ -1,5 +1,5 @@
 <% if !user_signed_in? %>
-<div class="jumbotron">
+<div class="well">
   <h1> Review your Favourite Movies</h1>
   <p>Write your own review on your favourite movies</p>
   <p><%= link_to "Sign Up to Write your Own Review", new_user_registration_path, class: "btn btn-primary btn-lg" %></p>
@@ -8,7 +8,7 @@
 
 <div class="row">
   <% @movies.each do |movie| %>
-  <div class="col-sm-6 col-md-3">
+  <div class="col-sm-5 col-md-3">
     <div class="thumbnail">
       <%= link_to (image_tag movie.image.url(:medium), class: 'image'), movie %>
     </div>

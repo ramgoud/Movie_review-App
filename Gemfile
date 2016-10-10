@@ -9,6 +9,7 @@ gem 'sqlite3'
 gem 'devise', '~> 4.2'
 gem 'paperclip', '~> 5.1'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'searchkick', '~> 1.3', '>= 1.3.4'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets

@@ -16,7 +16,7 @@
   </div>
   <div class="field">
     <%= f.label :comment %><br>
-    <%= f.text_area :comment %>
+    <%= f.text_area :comment, size: "60x5" %>
   </div>
   <div class="actions">
     <%= f.submit %>
@@ -26,6 +26,6 @@
 <script>
     $('#star-rating').raty({
       path: '/assets/',
-      scoreNames: 'review[rating]'
+      scoreName: 'review[rating]'
     });
 </script>
